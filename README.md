@@ -1,2 +1,33 @@
-# aaranya-eterna
-Aaranya Eterna — premium nature destination MVP with Supabase auth, bookings, and admin tooling
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*
+!.env.example
+
+# vercel
+a/.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
